@@ -87,6 +87,6 @@
         <InArgument x:TypeArguments="x:Int32">[5 + 7]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message - Addition" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Addition Of Two Numbers is :&quot;+Addition.ToString]" />
+    <ui:LogMessage DisplayName="Log Message - Addition" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Addition Of Two Numbers is    :&quot;+Addition.ToString]" />
   </Sequence>
 </Activity>
